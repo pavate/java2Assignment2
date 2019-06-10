@@ -16,8 +16,9 @@ public class SalaryEmployee extends Employee {
 
     //Constructor to create a salary employee
     public SalaryEmployee(double salary, int Id, String firstName, String lastName) {
-        super(Id, firstName, lastName);
+        super(Id, firstName, lastName);       
         this.salary = salary;
+        
     }
 
     //method to calculte pay

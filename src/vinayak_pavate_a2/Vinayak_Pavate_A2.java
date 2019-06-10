@@ -9,7 +9,8 @@ import vinayak_pavate_a2.model.SalaryEmployee;
 
 /**
  *
- * @author acer
+ * @author Vinayak 
+ * This is the main class where the new employees are created.
  */
 public class Vinayak_Pavate_A2 {
 
@@ -290,7 +291,7 @@ public class Vinayak_Pavate_A2 {
             for (int i = 0; i < employees.size(); i++) {
                 if (updatedId == employees.get(i).getId()) {
                     correctId = true;
-                    System.out.println("Alreadyused");
+                    System.out.println("This ID already exists, please try again");
                 }
             }
             if (!correctId) {
